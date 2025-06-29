@@ -16,7 +16,7 @@ const userSchema = new mongoose.Schema({
     required: true,
   },
 });
-//2- model based off of that schema
+//2- model based off of that schema.
 
 const User = mongoose.model("User", userSchema);
 export default User;
